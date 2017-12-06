@@ -25,7 +25,7 @@ void setup()
 {
   /* wifi */
 	Serial.begin(115200);
-  /*
+  
 	WiFi.config(ip, gat, subnet);
 	bool isConnected = false;
 	
@@ -48,7 +48,7 @@ void setup()
 	}
 
 	Serial.println("'PID' controller set");
-	*/
+	
 }
 	/*
 	HTTPClient client;
@@ -65,7 +65,7 @@ void setup()
 
 void loop()
 {
-	/*
+	
 	row_values *row = NULL;
 	MySQL_Cursor cur_in = MySQL_Cursor(&conn);
 	MySQL_Cursor cur_out = MySQL_Cursor(&conn);
@@ -86,7 +86,7 @@ void loop()
 			zadana = atol(row->values[0]);
 		}
 	} while (row != NULL);
-	*/
+	
 
 	//tutaj regulacja
 	if (zmienna1<zadana) {
@@ -103,11 +103,11 @@ void loop()
 	sprintf(query, INSERT_SQL, tmpInt1, tmpInt2);
 	// CZARY MARY END;
 	delay(1000);
-	//cur_in.execute(query);
-	Serial.println(query);
+	cur_in.execute(query);
+	//Serial.println(query);
 	Serial.println(zadana);
 	Serial.println(zmienna1);
-	//cur_in.close();
-	//cur_out.close();
+	cur_in.close();
+	cur_out.close();
 	
 }

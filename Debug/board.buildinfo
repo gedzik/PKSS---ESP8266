@@ -265,7 +265,7 @@ PreProcessor.HeaderCount=1
 PreProcessor.PrototypeCount=4
 vm.last.preproc.file.0.file=Test.ino
 vm.last.preproc.file.0.offset=1
-vm.last.preproc.file.0.length=2572
+vm.last.preproc.file.0.length=2560
 vm.last.preproc.file.0.linecount=114
 vm.last.preproc.file.0.linestart=0
 vm.last.preproc.file.0.lineend=114
@@ -298,7 +298,7 @@ runtime.vm.ide.platforms.path=C:\Program Files (x86)\Microsoft Visual Studio\201
 build.variant.path=C:\Users\Ged\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.3.0\variants\nodemcu
 archive_file=core.a
 archive_file_path=C:\Users\Ged\AppData\Local\Temp\VMBuilds\Test\esp8266_nodemcuv2\Debug\core.a
-extra.time.local=74823802
+extra.time.local=82972332
 tools.ctags.path={runtime.tools.ctags.path}
 tools.ctags.cmd.path={path}/ctags
 tools.ctags.pattern="{cmd.path}" -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives "{source_file}"
